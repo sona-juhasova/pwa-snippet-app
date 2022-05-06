@@ -1,0 +1,23 @@
+{
+    "name": "Snippet Saver",
+    "short_name": "SnipIt",
+    "theme_color": "#262626",
+    "background_color": "#2196f3",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "icons": [
+      {
+        "src": "/icons/favicon-32x32.png",
+        "sizes": "32x32"
+      },
+      {
+        "src": "/icons/apple-touch-icon.png",
+        "sizes": "72x72 96x96 128x128 256x256"
+      },
+      {
+        "src": "/icons/android-chrome-512x512.png",
+        "sizes": "any"
+      }
+    ]
+  }
