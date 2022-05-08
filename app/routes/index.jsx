@@ -1,6 +1,8 @@
 import { Link, useLoaderData } from '@remix-run/react';
 import connectDb from '~/db/connectDb.server';
 
+
+
 export async function loader() {
   const db = await connectDb();
   const snippets = await db.models.CodeSnippet.find();

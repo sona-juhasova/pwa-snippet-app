@@ -12,6 +12,8 @@ import connectDb from "./db/connectDb.server";
 import styles from "~/styles/global.css";
 import SnippetList from "./components/SnippetList";
 import CategoryList from "./components/CategoryList";
+import * as serviceWorkerRegistration from './serviceWorkerRegistration.js';
+
 
 export function meta() {
   return {
@@ -123,3 +125,6 @@ export default function App() {
     </html>
   );
 }
+
+
+serviceWorkerRegistration.unregister();
