@@ -12,7 +12,6 @@ import connectDb from "./db/connectDb.server";
 import styles from "~/styles/global.css";
 import SnippetList from "./components/SnippetList";
 import CategoryList from "./components/CategoryList";
-import * as serviceWorkerRegistration from './serviceWorkerRegistration.js';
 
 
 export function meta() {
@@ -97,7 +96,7 @@ export default function App() {
       <head>
         <link rel="shortcut icon" href="favicon.ico"/>
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
-        <link rel="manifest" href="./manifest.json"/>
+        <link rel="manifest" href="/manifest.json"/>
         <Meta />
         <Links />
       </head>
@@ -125,6 +124,3 @@ export default function App() {
     </html>
   );
 }
-
-
-serviceWorkerRegistration.unregister();
