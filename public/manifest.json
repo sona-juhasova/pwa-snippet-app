@@ -1,8 +1,8 @@
 {
-    "name": "Snippet Saver",
-    "short_name": "SnipIt",
-    "theme_color": "#262626",
-    "background_color": "#2196f3",
+    "name": "Snippify",
+    "short_name": "Snippify",
+    "theme_color": "#000",
+    "background_color": "#000",
     "display": "standalone",
     "scope": ".",
     "start_url": "/",
@@ -24,7 +24,7 @@
         "type": "image/png"
       },
       {
-        "src": "/icons/android-chrome-512x512.png",
+        "src": "/icons/android-chrome-192x192.png",
         "sizes": "any",
         "type": "image/png"
       }
